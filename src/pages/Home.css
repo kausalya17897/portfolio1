@@ -1,0 +1,79 @@
+.abtimg{
+    width: 650px;
+}
+
+
+.home{
+    color:rgb(35, 62, 115);
+
+}
+.homebg{
+    
+    background-color: #edf9fe;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    
+}
+.logo{
+    height:60px;
+    border-radius: 50%;
+    text-decoration: none;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 90%;
+    padding: 20px 10px;
+    margin: 0 auto;
+
+}
+.symbol{
+color:rgb(0,28,85)
+}
+.logo-name{
+    font-family: Agustina Regular;
+    font-weight: 700;
+    padding: 0 10px;
+    color:rgb(0,28,85)
+}
+.navbar{
+    list-style-type: none;
+}
+.navbar>a{
+    text-decoration: none;
+    color:rgb(35, 62, 115);
+}
+.hom_content{
+    padding: 15px 0px;
+}
+h1.homtxt{
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color:rgba(198,201,216,.75)!important;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+h2.homtxt{
+    font-size: 72px;
+    font-size: 54px;
+    line-height: 54px;
+    font-weight: 800;
+    font-family: Montserrat,sans-serif;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+h3.homtxt{
+    font-size: 58px;
+    line-height: 40px;
+    font-weight: 800;
+    font-family: Montserrat,sans-serif;
+    color:#7F8DAA;
+    margin-top:10px;
+}
+Button{
+    height:60px !important;
+    width:150px !important;
+}

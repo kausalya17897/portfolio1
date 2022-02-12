@@ -1,0 +1,81 @@
+.skills{
+    color:rgb(35, 62, 115);
+    
+    margin:30px auto;
+}
+.skillscontainer{
+    padding: 0 100px;
+}
+ul>div{
+    list-style-type: none;
+    font-family: sans-serif;
+    padding: 0;
+    line-height: 40px;
+    font-size: 30px;
+}
+.percent{
+    position: absolute;
+margin-bottom: 10px;
+margin-left: 350px;
+
+    
+}
+.skillname{
+    margin-bottom: 0;
+}
+.percent{
+    margin-bottom: 0;
+}
+.gp_50{
+    gap:360px;
+}
+.card{
+    
+    background-color: #1d293a;
+    padding: 25px 25px 35px;
+    margin: 15px;
+    border-radius: 4px;
+    padding: 0;
+    padding-right: 30px;
+}
+.skills li{
+    margin: 20px 0;
+}
+.bar{
+background:#353b48 ;
+display: block;
+height: 10px;
+border: 1px solid rgba(0,0,0,0.3);
+border-radius: 3px;
+overflow: hidden;
+box-shadow: 0 0 10px #2187e7b3;
+}
+.bar span{
+    height: 10px;
+    float: left;
+    background: #2187e7;
+}
+.html{
+    width: 95%;
+}
+.css{
+    width: 90%;
+}
+.javascript{
+    width: 85%;
+}
+.react{
+    width:85%;
+}
+.mongodb{
+width:70%;
+}
+.express{
+width:65%;
+}
+.node{
+    width:70%;
+}
+.cl_2{
+    width: 50%;;
+}
