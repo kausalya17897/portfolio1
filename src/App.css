@@ -103,3 +103,41 @@ color:rgb(0,28,85)
 .colblue{
   color:#111a28 !important; 
 }
+.row{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+  place-content: center;
+  justify-content: space-around;
+  
+}
+.row{
+  display: flex;
+  width: 100%;
+  
+  overflow: hidden;
+  align-items: flex-start;
+  justify-content: center;
+}
+.col_2{
+  max-width: 50%;
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  flex-direction: column;
+}
+.container{
+  align-items: center;
+  margin-left: auto;
+}
+.gp_20{
+  gap: 20px;
+}
+.ctimg{
+  border-radius: 50%;
+
+}
+.txt{
+  font-family: 'Comforter', cursive;
+  font-size: 32px;
+}

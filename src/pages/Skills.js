@@ -1,20 +1,30 @@
 import React from 'react'
+import Button from '@mui/material/Button';
+import Stack from '@mui/material/Stack';
 import 'C:/Users/Dinakaran K/.vscode/portfolio1/src/pages/Skills..css';
-import {Link,Switch,Route} from 'react-router-dom';
+import {Switch,Route} from 'react-router-dom';
+import { useHistory } from 'react-router-dom/cjs/react-router-dom.min';
 export default function Skills() {
+  const history=useHistory();
   return (
 <div>
-  <nav className='navigation navbar pxy_30'>
+  <nav className='navigation navbar pxy_30 skillnav'>
 <ul>
-  <Link to="/web">Web</Link>
-  <Link to="/programming">Programming</Link>
-  <Link to="/Others">Others</Link>
+  
+<Stack direction="row" spacing={2}>
+  
+  <Button onClick={()=>history.push('/Skills')} variant="outlined" className="colblue">Web</Button>
+  <Button onClick={()=>history.push('/programming')} variant="outlined" className="colblue">Programming</Button>
+  
+  <Button onClick={()=>history.push('/Others')} variant="outlined" className="colblue">Others</Button>
+  
+  </Stack>
 </ul>
   </nav>
   <Switch>
-  <Route exact path="/web"><Skillscontainer/>fddf</Route> 
+  <Route exact path="/"><Skillscontainer/>fddf</Route> 
   <Route path="/programming"><Programming/>cgvn</Route>
-  <Route path="/Others"><Others/></Route>
+  <Route path="/Others"></Route>
   </Switch>
   <div className='skillscontainer'>
     <div className='skills px_10'>
@@ -94,6 +104,7 @@ export default function Skills() {
       <span className='bar'><span className='node'></span></span>
       <div>
       </div>
+
     </div>
     
     
@@ -103,7 +114,10 @@ export default function Skills() {
   </div>
   </div>
   <div className='tools'>
-<h3>Tools</h3>
+
+<Programming/>
+<Tools/>
+
   </div>
   </div>
 </div>
@@ -202,20 +216,58 @@ export default function Skills() {
   </div>
   <div className='tools'>
 <h3>Tools</h3>
+
   </div>
   </div>
   )
 }
 function Programming() {
   return (
-    <div>Skillszxvzvx</div>
+    <div className='skillscontainer'>
+    <div className='skills px_10'>
+    <h1 className='tc'>Programming</h1>
+    <div className="card">
+    <div className="card dflex  jb ">
+      <div>JavaScript</div>
+      <div>95%</div>
+      </div>
+      <span className='bar'><span className='html'></span></span>
+      <div>
+      </div>
+    </div>
+   
+  </div>
+  </div>
+  
   )
 }
 
-function Others() {
-  return (
-    <div>Skilcvdbfls</div>
+export function Tools(){
+  return(
+      <div className='skills px_10'>
+    <h1 className='tc'>Tools</h1>
+
+    <div className='dflex'>
+
+    <div className="card">
+    <div className="card dflex jb ">
+      <div>vscode</div>
+      <div>95%</div>
+      </div>
+      <span className='bar'><span className='html'></span></span>
+    </div>
+   
+    
+    <div className="card">
+    <div className="card dflex  jb ">
+      <div>Git</div>
+      <div>95%</div>
+      </div>
+      <span className='bar'><span className='html'></span></span>
+    </div>
+    </div>
+
+    </div>
+    
   )
 }
-
-

@@ -14,15 +14,15 @@ function App() {
     <div className="App">
       <div className='header dflex alc px_30'>
       <div>
-      <img  className="logo" src={logo} alt="name"/>
+     <h3 className='txt'>Kausalya.K</h3>
       </div>
       <nav className="navigation pxy_30">
       <ul className="navbar dflex">
-        <Link to="/"className="navitem mx_15">Home</Link>
+        <Link to="/" className="navitem mx_15">Home</Link>
         <Link to="/About"className="navitem mx_15">About</Link>
         <Link to="/Skills"className="navitem mx_15">Skills</Link>
         <Link to="/Projects"className="navitem mx_15">Projects</Link>
-        <Link to="/Education"className="navitem mx_15">Education</Link>
+       
         <Link to="/Contact"className="navitem mx_15">Contact me</Link>
         </ul>
       </nav>

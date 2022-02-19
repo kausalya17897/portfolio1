@@ -6,6 +6,9 @@
 .skillscontainer{
     padding: 0 100px;
 }
+.skillnav{
+    margin-left: 430px;
+}
 ul>div{
     list-style-type: none;
     font-family: sans-serif;

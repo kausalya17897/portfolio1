@@ -1,0 +1,15 @@
+.project{
+margin-left: 50px;
+margin-top: 30px;
+}
+
+.projimg{
+    height:300px;
+    width:500px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.gp_20{
+    gap: 60px;
+}
+
