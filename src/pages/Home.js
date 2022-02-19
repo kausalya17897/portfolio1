@@ -2,7 +2,7 @@ import React from 'react'
 import Button from '@mui/material/Button';
 import Stack from '@mui/material/Stack';
 import img from 'C:/Users/Dinakaran K/.vscode/portfolio1/src/image/profimg.jpg'
-import { useHistory } from 'react-router-dom/cjs/react-router-dom.min';
+import { useHistory } from 'react-router-dom';
 import './Home.css'
 export default function Home() {
   const history=useHistory();

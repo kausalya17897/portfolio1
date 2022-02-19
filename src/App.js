@@ -7,7 +7,7 @@ import Skills from './pages/Skills.js';
 import Projects from './pages/Project.js';
 import Education from './pages/Education.js';
 import Contact from './pages/Contact.js';
-import logo from 'C:/Users/Dinakaran K/.vscode/portfolio1/src/image/logo - Copy.jpg';
+
 
 function App() {
   return (
