@@ -4,7 +4,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import MarkunreadIcon from '@mui/icons-material/Markunread';
-import contactimg from 'C:/Users/Dinakaran K/.vscode/portfolio1/src/image/contact.jpg'
+import contactimg from '../image/contact.jpg'
 export default function Contact() {
   const iconstyle={
     fontSize:"50px"

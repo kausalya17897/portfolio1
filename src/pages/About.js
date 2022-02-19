@@ -1,7 +1,7 @@
 import React from 'react'
 import Button from '@mui/material/Button';
 import Stack from '@mui/material/Stack';
-import aboutimg from 'C:/Users/Dinakaran K/.vscode/portfolio1/src/image/selimage.jpg'
+import aboutimg from '../image/selimage.jpg'
 import './About.css'
 export default function About() {
   return (

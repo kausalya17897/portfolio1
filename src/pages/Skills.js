@@ -1,7 +1,7 @@
 import React from 'react'
 import Button from '@mui/material/Button';
 import Stack from '@mui/material/Stack';
-import 'C:/Users/Dinakaran K/.vscode/portfolio1/src/pages/Skills..css';
+import './Skills..css';
 import {Switch,Route} from 'react-router-dom';
 import { useHistory } from 'react-router-dom';
 export default function Skills() {

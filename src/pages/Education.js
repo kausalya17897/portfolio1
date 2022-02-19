@@ -1,5 +1,5 @@
 import React from 'react'
-import gradimg from 'C:/Users/Dinakaran K/.vscode/portfolio1/src/image/grad4.jpg';
+import gradimg from '../image/grad4.jpg';
 export default function Education() {
   return (
     <div className='education'>

@@ -1,7 +1,7 @@
 import React from 'react'
 import './Project.css'
-import movieapp from 'C:/Users/Dinakaran K/.vscode/portfolio1/src/image/proj1.jpg';
-import bikeapp from 'C:/Users/Dinakaran K/.vscode/portfolio1/src/image/proj2.jpg';
+import movieapp from '../image/proj1.jpg';
+import bikeapp from '../image/proj2.jpg';
 
 export default function Project() {
   return (
