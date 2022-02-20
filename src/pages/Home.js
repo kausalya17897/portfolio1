@@ -8,7 +8,7 @@ export default function Home() {
   const history=useHistory();
   return (
     <div className="container">
-    <div className="hom_content dflex ">
+    <div className="hom_content dflex str">
     <div className='col_2'>
             <img className="abtimg" src={img} alt="n nd"/>
     </div>

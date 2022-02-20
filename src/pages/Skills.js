@@ -8,7 +8,7 @@ export default function Skills() {
   const history=useHistory();
   return (
 <div>
-  <nav className='navigation navbar pxy_30 skillnav'>
+  {/*<nav className='navigation navbar pxy_30 skillnav'>
 <ul>
   
 <Stack direction="row" spacing={2}>
@@ -237,6 +237,9 @@ function Programming() {
     </div>
    
   </div>
+  */}
+
+  
   </div>
   
   )

@@ -13,7 +13,7 @@ export default function Contact() {
     
     <div className='contact'>
      
-      <div className="row">
+      <div className="rowc">
       <div className="col_2">
     <img src={contactimg} alt="ds" className='ctimg'/>
     </div>
@@ -21,7 +21,7 @@ export default function Contact() {
         <div className="col_2">
         <h1 className='tc'>Contact Me</h1>
 <p className='ctpara'>I am interested in working with any company that thinks my skill will be helpful for them. If you are looking for someone like me, please let me know. Or you can just 'say hi' to me. You can message me, I will reply within 24 hours</p>
-<div className='dflex tc px_10 gp_20'>
+<div className='dflex tc px_10 gp_20 icgrp'>
   <a href="https://github.com/kausalya17897" className="icon">
 <GitHubIcon style={iconstyle}className="icon"/></a>
    <a href="https://www.linkedin.com/in/kausalya-17"  className="icon" >

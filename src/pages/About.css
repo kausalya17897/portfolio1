@@ -13,8 +13,8 @@
     font-family: Lato,sans-serif;    
 }
 .row{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    
+    
     column-gap: 10px;
     place-content: center;
     justify-content: space-around;
@@ -52,5 +52,32 @@ p.abtp{
     color:rgb(35, 62, 115);
     line-height: 2;
     flex-wrap: wrap;
+    
+}
+
+@media(max-width:765px) {
+
+    .row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+h1.abtme{
+    font-size:40px;
+    color:rgb(35, 62, 115);
+    margin-bottom: 10px;
+    text-align: start;
+    font-family: Monsterrat,sans-serif;
+    
+    }
+    p.abtp{
+        width: 350px;
+        line-height: 2;
+        flex-wrap: wrap;
+        
+    }
+    .aboutcontainer{
+        padding-left: 30px;
+    }
     
 }

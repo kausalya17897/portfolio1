@@ -77,3 +77,33 @@ Button{
     height:60px !important;
     width:150px !important;
 }
+
+@media(max-width:765px) {
+    .str{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    h1.homtxt{
+        font-size: 30px;
+    width: 300px;
+    font-weight: 800;
+    margin-top:10px;
+    margin-bottom: 10px;
+    }
+    h2.homtxt{
+        font-size: 30px;
+        line-height: 30px;
+        width: 300px;
+    }
+    h3.homtxt{
+        font-size: 30px;
+        width: 300px;
+        line-height: 40px;
+    
+    }
+    .abtimg{
+        width: 300px;
+        padding-left: 50px;
+    }
+
+}

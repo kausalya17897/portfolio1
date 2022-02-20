@@ -9,3 +9,34 @@ p.ctpara{
     text-decoration: none !important;
     color:#233E73;
 }
+.rowc{
+    display: flex;
+    width: 100%;
+    
+    overflow: hidden;
+    align-items: flex-start;
+    justify-content: center;
+  }
+@media(max-width:765px) {
+    h1.contact{
+        width: 350px;
+    }
+.tc{
+    font-size: 40px;
+    text-align: center;
+    width: 350px;
+}
+.rowc{
+    display: flex;
+    flex-direction: column;
+}
+.ctimg{
+    width: 350px;
+}
+.ctpara{
+    width: 350px;
+}
+.icgrp{
+    width: 350px;
+}
+}

@@ -58,6 +58,7 @@ box-shadow: 0 0 10px #2187e7b3;
     float: left;
     background: #2187e7;
 }
+
 .html{
     width: 95%;
 }
@@ -81,4 +82,23 @@ width:65%;
 }
 .cl_2{
     width: 50%;;
+}
+
+.renderinscreen{
+    margin-left: 100px;
+}
+@media(max-width:765px){
+    .card{
+        width:300px;
+    }
+    .renderinscreen{
+        margin-left: 30px;
+    }
+    .sk{
+        display: flex;
+        flex-direction: column;
+    }
+    .flw{
+        flex-wrap: wrap;
+    }
 }
