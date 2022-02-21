@@ -24,7 +24,7 @@ export default function Home() {
             </h3>
             <div className='dflex px_50'>
             <Stack direction="row" spacing={2}>
-         <a href="https://drive.google.com/file/d/1lj8ymgs0hrRlC4R6WkML-kHspOnKC-7J/view?usp=sharing"> <Button variant="contained" className="colblue">
+         <a href="https://drive.google.com/file/d/1mNMf8V2HLg8uCBPoiDS6Qxv5RtPdC7ua/view?usp=sharing"> <Button variant="contained" className="colblue">
         Get Resume
       </Button></a>  
       <Button onClick={()=>history.push("/About") }variant="outlined" >
