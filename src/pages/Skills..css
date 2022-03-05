@@ -102,3 +102,12 @@ width:65%;
         flex-wrap: wrap;
     }
 }
+.bluebg{
+    background-color: #2187E7;
+    color:#1D293A;
+    background-color: #1D293A;
+    color:white;
+    color:#2187E7;
+    line-height:34px;
+
+}

@@ -63,7 +63,7 @@ const boxstyle={display:"flex",alignItem:"center",textAlign:"center"}
     <div className="card">
     <div className="card dflex  jb ">
       <div>HTML</div>
-      <div>95%</div>
+      <div className="bluebg">95%</div>
       </div>
       <span className='bar'><span className='html'></span></span>
       <div>
@@ -72,7 +72,7 @@ const boxstyle={display:"flex",alignItem:"center",textAlign:"center"}
     <div className="card">
     <div className="card dflex  jb ">
       <div>CSS</div>
-      <div>90%</div>
+      <div className="bluebg">90%</div>
       </div>
       <span className='bar'><span className='css'></span></span>
       <div>
@@ -81,7 +81,7 @@ const boxstyle={display:"flex",alignItem:"center",textAlign:"center"}
     <div className="card">
     <div className="card dflex  jb ">
       <div>JavaScript</div>
-      <div>85%</div>
+      <div className="bluebg">85%</div>
       </div>
       <span className='bar'><span className='javascript'></span></span>
       <div>
@@ -90,7 +90,7 @@ const boxstyle={display:"flex",alignItem:"center",textAlign:"center"}
     <div className="card">
     <div className="card dflex  jb ">
       <div>Bootstrap</div>
-      <div>85%</div>
+      <div className="bluebg">85%</div>
       </div>
       <span className='bar'><span className='react'></span></span>
       <div>
@@ -101,7 +101,7 @@ const boxstyle={display:"flex",alignItem:"center",textAlign:"center"}
     <div className="card">
     <div className="card dflex  jb ">
       <div>React Js</div>
-      <div>85%</div>
+      <div className="bluebg">85%</div>
       </div>
       <span className='bar'><span className='react'></span></span>
       <div>
@@ -110,7 +110,7 @@ const boxstyle={display:"flex",alignItem:"center",textAlign:"center"}
     <div className="card">
     <div className="card dflex  jb ">
       <div>Mongodb</div>
-      <div>70%</div>
+      <div className="bluebg">70%</div>
       </div>
       <span className='bar'><span className='mongodb'></span></span>
       <div>
@@ -119,7 +119,7 @@ const boxstyle={display:"flex",alignItem:"center",textAlign:"center"}
     <div className="card">
     <div className="card dflex  jb ">
       <div>Express</div>
-      <div>65%</div>
+      <div className="bluebg">65%</div>
       </div>
       <span className='bar'><span className='express'></span></span>
       <div>
@@ -128,7 +128,7 @@ const boxstyle={display:"flex",alignItem:"center",textAlign:"center"}
     <div className="card">
     <div className="card dflex  jb ">
       <div>Node Js</div>
-      <div>70%</div>
+      <div className="bluebg">70%</div>
       </div>
       <span className='bar'><span className='node'></span></span>
       <div>
@@ -149,7 +149,7 @@ const boxstyle={display:"flex",alignItem:"center",textAlign:"center"}
     <div className="card">
     <div className="card dflex  jb ">
       <div>Vs code</div>
-      <div>95%</div>
+      <div className="bluebg">95%</div>
       </div>
       <span className='bar'><span className='html'></span></span>
       <div>
@@ -158,7 +158,7 @@ const boxstyle={display:"flex",alignItem:"center",textAlign:"center"}
     <div className="card">
     <div className="card dflex  jb ">
       <div>GitHub</div>
-      <div>80%</div>
+      <div className="bluebg">80%</div>
       </div>
       <span className='bar'><span className='css'></span></span>
       <div>
@@ -167,7 +167,7 @@ const boxstyle={display:"flex",alignItem:"center",textAlign:"center"}
     <div className="card">
     <div className="card dflex  jb ">
       <div>MOngodb Atlas</div>
-      <div>85%</div>
+      <div className="bluebg">85%</div>
       </div>
       <span className='bar'><span className='javascript'></span></span>
       <div>
@@ -181,7 +181,7 @@ const boxstyle={display:"flex",alignItem:"center",textAlign:"center"}
     <div className="card">
     <div className="card dflex  jb ">
       <div>Postman</div>
-      <div>85%</div>
+      <div className="bluebg">85%</div>
       </div>
       <span className='bar'><span className='react'></span></span>
       <div>

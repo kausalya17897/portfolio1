@@ -66,6 +66,9 @@
 .jb{
   justify-content: space-between;
 }
+.fwrap{
+  flex-wrap: wrap;
+}
 .logo{
   height:60px;
   border-radius: 50%;
@@ -178,4 +181,10 @@ color:rgb(0,28,85)
     padding-left: 30px;
     font-size: 60px;
   }
+}
+.footer{
+  margin-top: 60px;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
 }

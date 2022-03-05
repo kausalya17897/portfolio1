@@ -255,7 +255,7 @@ export function Tools(){
     <div className="card">
     <div className="card dflex jb ">
       <div>vscode</div>
-      <div>95%</div>
+      <div className="bluebg">95%</div>
       </div>
       <span className='bar'><span className='html'></span></span>
     </div>
@@ -264,7 +264,7 @@ export function Tools(){
     <div className="card">
     <div className="card dflex  jb ">
       <div>Git</div>
-      <div>95%</div>
+      <div className="bluebg">95%</div>
       </div>
       <span className='bar'><span className='html'></span></span>
     </div>

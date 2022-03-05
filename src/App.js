@@ -5,7 +5,7 @@ import Home from './pages/Home.js';
 import About from './pages/About.js';
 import Skills from './pages/Skills.js';
 import Skill from './pages/Skill.js';
-import Projects from './pages/Project.js';
+import Projects from './pages/Projects';
 import Education from './pages/Education.js';
 import Contact from './pages/Contact.js';
 import MenuIcon from '@mui/icons-material/Menu';

@@ -4,6 +4,8 @@ import Stack from '@mui/material/Stack';
 import aboutimg from '../image/selimage.jpg'
 import './About.css'
 import { useHistory } from 'react-router-dom';
+import Footer from '../Components/Footer';
+
 export default function About() {
   const history=useHistory();
   return (
@@ -30,6 +32,7 @@ export default function About() {
       </div>
      
     </div>
+    <Footer/>
   </div>
   )
 }

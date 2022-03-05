@@ -1,15 +1,103 @@
 .project{
 margin-left: 50px;
 margin-top: 30px;
+display: flex;
+flex-wrap: wrap;
 }
 
 .projimg{
-    height:300px;
-    width:500px;
-    border-radius: 20px;
-    object-fit: cover;
+    height:100%;
+    width:100%;
+    
+    
 }
 .gp_20{
     gap: 60px;
 }
+.projcontainer{
+    height:280px;
+    width:450px;
+    background-color: blue;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.Icon{
+    
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    transition: all 0.5s ease;
+    cursor:pointer;
+    
 
+}
+.Icons:hover {
+        background-color: #e9f5f5;
+        transform: scale(1.1);
+}
+.Full{
+height:min-content;
+width: auto;
+display:flex;
+flex-wrap: wrap;
+margin-left: 10px;
+}
+.Container{
+    flex: 1;
+    margin: 10px;
+    
+    width:min-content;
+    
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5fbfd;
+    position: relative;
+}
+.Image{
+  height: 75%;
+  z-index: 2;
+  width:370px;
+}
+.Info{
+    position: absolute;
+    z-index: 3;
+    background-color: #e4ecec;
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Info:hover{
+    z-index: 3;
+    background-color: #e4ecec;
+}
+
+.Infos{
+    position: absolute;
+    z-index: 3;
+    background-color: #e4ecec;
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Info:hover{
+    z-index: 3;
+    background-color: #e4ecec;
+}
+.projecttitle{
+    text-align: center;
+}
