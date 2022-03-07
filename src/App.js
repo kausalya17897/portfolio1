@@ -47,6 +47,9 @@ function App() {
         <Link to="/Skills"className="navsitem">Skills</Link> 
         </li>
         <li>
+        <Link to="/Projects"className="navsitem">Projects</Link> 
+        </li>
+        <li>
         <Link to="/Contact"className="navsitem">Contact me</Link>
         </li>
       </ul>
