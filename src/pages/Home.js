@@ -6,6 +6,7 @@ import { useHistory } from 'react-router-dom';
 import './Home.css'
 export default function Home() {
   const history=useHistory();
+  const butstyles={backgroundColor:"darkblue"}
   return (
     <div className="container">
     <div className="hom_content dflex str">
@@ -24,7 +25,7 @@ export default function Home() {
             </h3>
             <div className='dflex px_50'>
             <Stack direction="row" spacing={2}>
-         <a href="https://drive.google.com/file/d/1mNMf8V2HLg8uCBPoiDS6Qxv5RtPdC7ua/view?usp=sharing"> <Button variant="contained" className="colblue">
+         <a href="https://drive.google.com/file/d/1BlVOCGidos9Ppeiy8Q9dC2YNGiYOsn08/view?usp=sharing"> <Button variant="contained" className="colblue" style={butstyles}>
         Get Resume
       </Button></a>  
       <Button onClick={()=>history.push("/About") }variant="outlined" >
