@@ -17,7 +17,7 @@ export default function About() {
       <p className='abtp'>  Hello! I'm K.Kausalya, a passionate web developer. I develop web applications. My core skill is based on JavaScript and I love to do most of the things using JavaScript. I love to make the web more open to the world. I have graduated with a bachelor's degree in Electronics and Communication Engineering from Sri Ramakrishna Institute of Technology at Coimbatore, India in 2019. I am available for any kind of job opportunity that suits my interests.
       </p> <div className='dflex '>
             <Stack direction="row" spacing={2}>
-         <a href="https://drive.google.com/file/d/1mNMf8V2HLg8uCBPoiDS6Qxv5RtPdC7ua/view?usp=sharing">  <Button variant="contained" className="colblue">
+         <a href="https://drive.google.com/file/d/1XP88d8VlXnpon5f5wAnDdlkL9jFQ46F-/view?usp=sharing">  <Button variant="contained" className="colblue">
         Get Resume
       </Button></a> 
       <Button  onClick={()=>history.push("/Contact")} variant="outlined" >
