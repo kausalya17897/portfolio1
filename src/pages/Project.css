@@ -41,11 +41,11 @@ flex-wrap: wrap;
         transform: scale(1.1);
 }
 .Full{
-height:min-content;
-width: auto;
+
 display:flex;
 flex-wrap: wrap;
 margin-left: 10px;
+gap:20px;
 }
 .Container{
     flex: 1;
