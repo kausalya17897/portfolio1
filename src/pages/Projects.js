@@ -8,9 +8,8 @@ import bikeapp from '../image/bikethumbnail.jpg';
 import movieapp from '../image/moviethumnailimage.jpg'
 import contactapp from '../image/contactthumb.png'
 import styled from 'styled-components'
-import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
-import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
-import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
+import OpenInNewOutlinedIcon from '@mui/icons-material/OpenInNewOutlined';
+
 import {IconButton } from '@mui/material';
 import Button from '@mui/material/Button';
 
@@ -77,7 +76,14 @@ const Icon = styled.div`
     background-color: #e9f5f5;
     transform: scale(1.0);
   }`
-
+  const Border=styled.div`
+  border:1px solid black;
+  padding:3px;
+  border-radius:2px`
+const Flex=styled.div`
+display:flex;
+gap:20px;
+margin-top:20px;`
   return (
       <div>
           <h1 className='projecttitle'>Projects</h1>
@@ -86,81 +92,117 @@ const Icon = styled.div`
       <Circle />
       <Image src={ecommapp} alt="xdsg"/>
       <Info>
-        <Icon>
-      <Link href="https://github.com/kausalya17897/ecommweb" underline="none" target="_blank">
-      <GitHubIcon/>
-      </Link>
-        </Icon>
-        <Icon>
-        <Link href="https://shoppifyecom.netlify.app/" underline="none" target="_blank">
-        <LinkIcon/>
-        </Link>
-          </Icon>
+        
       </Info>
+      <Flex>
+      <Border>
+      <Link href="https://github.com/kausalya17897/ecommweb" underline="none" target="_blank">
+      <GitHubIcon/>FRONTEND
+      </Link>
+      </Border>
+      <Border>
+      <Link href="https://github.com/kausalya17897/ecommwebserver" underline="none" target="_blank">
+      <GitHubIcon/>BACKEND
+      </Link>
+      </Border>
+      <Border>
+      <Link href="https://shoppifyecom.netlify.app/" underline="none" target="_blank">
+      <OpenInNewOutlinedIcon/>LIVE
+      </Link></Border>
+      </Flex>
+    </Container>
+
+    <Container>
+      <Circle />
+      <Image src={movieapp} alt="xdsg"/>
+      <Info>
+        
+      </Info>
+      <Flex>
+      <Border>
+      <Link href="https://github.com/kausalya17897/crudapp" underline="none" target="_blank">
+      <GitHubIcon/>FRONTEND
+      </Link>
+      </Border>
+      <Border>
+      <Link href="https://github.com/kausalya17897/moviebackend" underline="none" target="_blank">
+      <GitHubIcon/>BACKEND
+      </Link>
+      </Border>
+      <Border>
+      <Link href="https://moviecrudapp.netlify.app/" underline="none" target="_blank">
+      <OpenInNewOutlinedIcon/>LIVE
+      </Link></Border>
+      </Flex>
     </Container>
     <Container>
       <Circle />
       <Image src={calcapp} alt="xdsg"/>
       <Info>
-        <Icon>
+       
+      </Info>
+      <Flex>
+      <Border>
       <Link href="https://github.com/kausalya17897/Dom-calculator" underline="none" target="_blank">
-      <GitHubIcon/>
+      <GitHubIcon/>FRONTEND
       </Link>
-        </Icon>
-        <Icon>
-        <Link href="https://simpleonlinecalc.netlify.app/" underline="none" target="_blank">
-        <LinkIcon/>
-        </Link>
-          </Icon>
-      </Info>
-    </Container>
-    <Container>
-      <Circle />
-      <Image src={movieapp} alt="xdsg"/>
-      <Info>
-        <Icon>
-      <Link href="https://github.com/kausalya17897/crudapp" underline="none" target="_blank">
-      <GitHubIcon/>
-      </Link>
-        </Icon>
-        <Icon>
-        <Link href="https://moviecrudapp.netlify.app/" underline="none" target="_blank">
-        <LinkIcon/>
-        </Link>
-          </Icon>
-      </Info>
+      </Border>
+     
+      <Border>
+      <Link href="https://simpleonlinecalc.netlify.app/" underline="none" target="_blank">
+      <OpenInNewOutlinedIcon/>LIVE
+      </Link></Border>
+      </Flex>
     </Container>
     <Container>
       <Circle />
       <Image src={bikeapp} alt="xdsg"/>
       <Info>
-        <Icon>
-      <Link href="https://github.com/kausalya17897/bikefront" underline="none" target="_blank">
-      <GitHubIcon/>
-      </Link>
-        </Icon>
-        <Icon>
-        <Link href="https://bikerentalapp.netlify.app/" underline="none" target="_blank">
-        <LinkIcon/>
-        </Link>
-          </Icon>
+        
       </Info>
+      <Flex>
+      <Border>
+      <Link href="https://github.com/kausalya17897/bikefront" underline="none" target="_blank">
+      <GitHubIcon/>FRONTEND
+      </Link>
+      </Border>
+      <Border>
+      <Link href="https://github.com/kausalya17897/rentalappbackend" underline="none" target="_blank">
+      <GitHubIcon/>BACKEND
+      </Link>
+      </Border>
+      <Border>
+      <Link href="https://bikerentalapp.netlify.app/" underline="none" target="_blank">
+      <OpenInNewOutlinedIcon/>LIVE
+      </Link></Border>
+      </Flex>
     </Container>
+   
+   
+   
+    
     <Container>
       <Circle />
       <Image src={contactapp} alt="xdsg"/>
       <Info>
-        <Icon>
-      <Link href="https://github.com/kausalya17897/ecommweb" underline="none" target="_blank">
-      <GitHubIcon/>
-      </Link>
-        </Icon>
-        <Icon>
-        <Link href="https://contact-connect-manager.netlify.app/" underline="none" target="_blank">
-        <LinkIcon/>
-        </Link>
-          </Icon>
+      
       </Info>
+      <Flex>
+      <Border>
+      <Link href="https://github.com/kausalya17897/contactmanager" underline="none" target="_blank">
+      <GitHubIcon/>FRONTEND
+      </Link>
+      </Border>
+      <Border>
+      <Link href="https://github.com/kausalya17897/Contactmanagerserver" underline="none" target="_blank">
+      <GitHubIcon/>BACKEND
+      </Link>
+      </Border>
+      <Border>
+      <Link href="https://contact-connect-manager.netlify.app/" underline="none" target="_blank">
+      <OpenInNewOutlinedIcon/>LIVE
+      </Link></Border>
+      </Flex>
     </Container>
     </div>
     </div>
