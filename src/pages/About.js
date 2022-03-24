@@ -9,6 +9,7 @@ import { Link } from '@mui/material';
 
 export default function About() {
   const history=useHistory();
+  const butstyles={backgroundColor:"darkblue"}
   return (
     <div className="aboutcontainer">
     <div className='container'>
@@ -18,11 +19,11 @@ export default function About() {
       <p className='abtp'>  Hello! I'm K.Kausalya, a passionate web developer. I develop web applications. My core skill is based on JavaScript and I love to do most of the things using JavaScript. I love to make the web more open to the world. I have graduated with a bachelor's degree in Electronics and Communication Engineering from Sri Ramakrishna Institute of Technology at Coimbatore, India in 2019. I am available for any kind of job opportunity that suits my interests.
       </p> <div className='dflex '>
             <Stack direction="row" spacing={2}>
-            <Button variant="contained" className="colblue">
+            <Button variant="contained" className="getresume" style={butstyles}>
          <Link href="https://drive.google.com/file/d/1YSZJTwhXcpl_Z6ho8Nq1u3iNPS88Z9qn/view?usp=sharing" underline="none" target="_blank">  
         Get Resume
       </Link> </Button>
-      <Button  onClick={()=>history.push("/Contact")} variant="outlined" >
+      <Button  onClick={()=>history.push("/Contact")} variant="outlined"  >
         Contact Me
       </Button>
       </Stack>
