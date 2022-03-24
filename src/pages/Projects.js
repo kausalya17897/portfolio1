@@ -63,8 +63,8 @@ const Image = styled.img`
 `;
 
 const Icon = styled.div`
-  width: 40px;
-  height: 40px;
+  
+  display:flex;
   border-radius: 50%;
   background-color: white;
   display: flex;
@@ -91,9 +91,7 @@ margin-top:20px;`
     <Container>
       <Circle />
       <Image src={ecommapp} alt="xdsg"/>
-      <Info>
-        
-      </Info>
+      
       <Flex>
       <Border>
       <Link href="https://github.com/kausalya17897/ecommweb" underline="none" target="_blank">
@@ -113,11 +111,9 @@ margin-top:20px;`
     </Container>
 
     <Container>
-      <Circle />
+      
       <Image src={movieapp} alt="xdsg"/>
-      <Info>
-        
-      </Info>
+      
       <Flex>
       <Border>
       <Link href="https://github.com/kausalya17897/crudapp" underline="none" target="_blank">
@@ -136,11 +132,9 @@ margin-top:20px;`
       </Flex>
     </Container>
     <Container>
-      <Circle />
+      
       <Image src={calcapp} alt="xdsg"/>
-      <Info>
-       
-      </Info>
+     
       <Flex>
       <Border>
       <Link href="https://github.com/kausalya17897/Dom-calculator" underline="none" target="_blank">
@@ -155,11 +149,9 @@ margin-top:20px;`
       </Flex>
     </Container>
     <Container>
-      <Circle />
+      
       <Image src={bikeapp} alt="xdsg"/>
-      <Info>
-        
-      </Info>
+    
       <Flex>
       <Border>
       <Link href="https://github.com/kausalya17897/bikefront" underline="none" target="_blank">
@@ -182,26 +174,29 @@ margin-top:20px;`
    
     
     <Container>
-      <Circle />
       <Image src={contactapp} alt="xdsg"/>
-      <Info>
-      
-      </Info>
+     
       <Flex>
       <Border>
+    
       <Link href="https://github.com/kausalya17897/contactmanager" underline="none" target="_blank">
       <GitHubIcon/>FRONTEND
       </Link>
+      
       </Border>
       <Border>
+      
       <Link href="https://github.com/kausalya17897/Contactmanagerserver" underline="none" target="_blank">
       <GitHubIcon/>BACKEND
       </Link>
+      
       </Border>
       <Border>
+      
       <Link href="https://contact-connect-manager.netlify.app/" underline="none" target="_blank">
       <OpenInNewOutlinedIcon/>LIVE
-      </Link></Border>
+      </Link>
+      </Border>
       </Flex>
     </Container>
     </div>
